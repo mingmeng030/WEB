@@ -1,0 +1,62 @@
+.header{
+    background-color: orange;
+    margin: 10px;
+}
+header nav{
+
+
+}
+header nav ul{
+    display: flex;
+    border-bottom: 1px solid sandybrown;
+    margin: 10px;
+}
+header nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+main{
+    display: flex;
+}
+section{
+    width: 80%;
+    background-color: gold;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+section h1{
+
+}
+article{
+    background-color: orange;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+article h2{
+    
+}
+article p{
+
+}
+aside{
+    width: 20%;
+    background-color: orange;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    background-color: orange;
+    margin: 10px;
+    padding: 20px;
+
+}
+footer address{
+
+}
+footer address a{
+    display: block;
+}
