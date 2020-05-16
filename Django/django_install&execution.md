@@ -1,6 +1,6 @@
-###**vscode에서  장고 설치하는 법**
+### **vscode에서  장고 설치하는 법**
 
-##*가상 환경 실행 방법
+## *가상 환경 실행 방법
 1. python --version
 
 -python 버젼 확인을 통해 제대로 파이썬이 깔려있는지 확인한다.
@@ -31,7 +31,7 @@ deactivate
 
  
 
-##*설치 및 삭제
+## *설치 및 삭제
 장고 설치(가상환경 켜놓고 실행)
 
 pip install django
@@ -44,7 +44,7 @@ pip unintall django
 
  
 
-##*서버 켜고 끄기
+## *서버 켜고 끄기
 서버 켜기
 -python manage.py runserver
 
@@ -58,7 +58,7 @@ pip unintall django
 
  
 
-##<django 기본 흐름>
+## <django 기본 흐름>
 1. 프로젝트 만들기
 
 django-admin startproject <프로젝트 이름>
@@ -117,7 +117,7 @@ wordcount라는 app 생성 시 위와 같이 setting.py의 installed_apps의 가
 
  
 
-##Django 구동 원리
+## Django 구동 원리
 MTV 패턴
 
  

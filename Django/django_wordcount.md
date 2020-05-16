@@ -1,7 +1,7 @@
-###<WORDCOUNT>
+### <WORDCOUNT>
  
 
-##Home.html
+## Home.html
 1. about 페이지와 링크로 연결
 
 2. 사용자들로부터 입력을 받음
@@ -10,19 +10,19 @@
 
  
 
-##About.html
+## About.html
 1.home 페이지와 링크로 연결
 
 2,.about에 관련된 내용 적혀 있음
 
  
 
-##Result.html
+## Result.html
 1.home 에서 입력 받은 데이터를 처리한 함수를 받아 “결과는 이러하다”를 출력
 
  
 
-####View.py에 정의되어야 하는 함수
+## View.py에 정의되어야 하는 함수
 1. home을 띄우는 함수
 
 2.about을 띄우는 함수
@@ -32,7 +32,7 @@
  
  ******************
 
-##만들 URL
+## 만들 URL
 1.home 을 띄우는 url=뒤에 아무것도 안 붙는 url(e.g. mutsawordcount.com)
 
 2.about을 띄우는 url=/about(e.g. mutsawordcount.com/about)
@@ -41,27 +41,27 @@
 
  
 
-##템플릿 언어       
+## 템플릿 언어       
 -html안에 쓰는 장고 제공 언어
 
 -html안에 파이썬 변수/문법을 쓰고 싶을 때 사용
 
 
 
-##템플릿 변수
+## 템플릿 변수
 
 -해당 파이썬 변수를 html파일에 담아 화면에 출력하라
 
 
 
-##템플릿 필터
+## 템플릿 필터
 {{value | length}} : value의 길이 반환
 
 {{value | lower}} : value를 소문자로 출력
 
  
 
-####템플릿 태그
+## 템플릿 태그
 -html 상에서 파이썬 문법 사용, url 생성 등의 기능 제공
 
 Ex) {%tag%}…태그내용…{%endtag%}}
